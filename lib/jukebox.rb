@@ -53,7 +53,7 @@ end
 
 def run(songs)
   help
-  while true
+#  while true
     puts "Please enter a command:"
     input = gets.strip
     case input
@@ -65,12 +65,10 @@ def run(songs)
         help
       when "exit"
         exit_jukebox
-        false
-        help
         break
       else
         help
-    end
+ #   end
   end
 end
 

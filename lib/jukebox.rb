@@ -53,7 +53,7 @@ end
 
 def run(songs)
   help
-#  while true
+  while true
     puts "Please enter a command:"
     input = gets.strip
     case input
@@ -68,7 +68,7 @@ def run(songs)
       break
       else
         help
-#     end
+     end
   end
 end
 
